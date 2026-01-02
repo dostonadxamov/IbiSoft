@@ -44,7 +44,7 @@ export function Header({ language, setLanguage }: HeaderProps) {
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary overflow-hidden">
               <img src="/LOGO.png" alt="BiSoft Logo" className="h-10 w-10 object-cover" />
             </div>
-            <span className="text-xl font-bold text-foreground">BiSmart</span>
+            <span className="text-xl font-bold text-foreground">IbiSoft</span>
           </div>
 
           {/* Desktop Navigation */}
