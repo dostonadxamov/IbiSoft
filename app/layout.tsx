@@ -23,11 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/png" href="/LOGO.png" sizes="512x512" />
-        <link rel="icon" type="image/png" href="/LOGO.png" sizes="192x192" />
-        <link rel="shortcut icon" href="/LOGO.png" />
-        <link rel="apple-touch-icon" sizes="512x512" href="/LOGO.png" />
-        <link rel="manifest" href="/site.webmanifest" />
+        {/* <link rel="icon" type="image/png" href="" sizes="512x512" />
+        <link rel="icon" type="image/png" href="" sizes="192x192" />
+        <link rel="shortcut icon" href="" />
+        <link rel="apple-touch-icon" sizes="512x512" href="" />
+        <link rel="manifest" href="/site.webmanifest" /> */}
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         {children}
