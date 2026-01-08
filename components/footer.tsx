@@ -50,10 +50,10 @@ export function Footer({ language }: FooterProps) {
             <div className="mb-4 flex items-center gap-2">
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary overflow-hidden">
-                  <img src="/LOGO.png" alt="BiSoft Logo" className="h-10 w-10 object-cover" />
+                  <img src="/bisoft.png" alt="BiSoft Logo" className="h-10 w-10 object-cover" />
                 </div>
               </div>
-              <span className="text-xl font-bold text-foreground">IbiSoft</span>
+              <span className="text-xl font-bold text-foreground">IbSoft</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">{t.description}</p>
           </div>

@@ -5,13 +5,13 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'IbiSoft - AQLLI BIZNES YECHIMLAR',
+  title: 'IbSoft - AQLLI BIZNES YECHIMLAR',
   description: '',
   generator: '',
   icons: {
-    icon: '/LOGO.png',
-    shortcut: '/LOGO.png',
-    apple: '/LOGO.png',
+    icon: '/bisoft.png',
+    shortcut: '/bisoft.png',
+    apple: '/bisoft.png',
   },
 }
 
@@ -23,11 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* <link rel="icon" type="image/png" href="" sizes="512x512" />
-        <link rel="icon" type="image/png" href="" sizes="192x192" />
-        <link rel="shortcut icon" href="" />
-        <link rel="apple-touch-icon" sizes="512x512" href="" />
-        <link rel="manifest" href="/site.webmanifest" /> */}
+        <link rel="icon" type="image/png" href="/bisoft.png" sizes="512x512" />
+        <link rel="icon" type="image/png" href="/bisoft.png" sizes="192x192" />
+        <link rel="shortcut icon" href="/bisoft.png" />
+        <link rel="apple-touch-icon" sizes="512x512" href="/bisoft.png" />
+        <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         {children}
